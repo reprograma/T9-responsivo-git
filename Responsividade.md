@@ -17,6 +17,12 @@
   * [Imagens responsivas](#imagens-responsivas)
   * [Formatos populares de arquivo de imagens para internet](#formatos-populares-de-arquivo-de-imagens-para-internet)
   * [Exercicio - Site responsivo do zero](https://github.com/mariaritacasagrande/Git-Github-e-Web-Design-Responsivo/tree/master/Responsivo/aula%201)
+* [Aula 3](#aula-3)
+  * [Display: flex](#display-flex)
+  * [O que é mobile first](#o-que-é-mobile-first)
+  * [Porque é importante](#porque-é-importante)
+  * [Porque mobile first é 😍](#porque-mobile-first-é-)
+  * [Porque mobile first é 🤦‍](#porque-mobile-first-é--1)
 
 ***
 
@@ -291,5 +297,90 @@ O atributo `max-width: 100%;` vai assegurar que essa imagem não estique mais do
 
 
 Para ajudar a salvar imagens leves e com qualidade: https://tinypng.com/
+
+***
+
+## Aula 3
+
+#### Display flexbox
+
+A propriedade de css `display: flex` permite alinhar com facilidade elementos lado a lado.
+
+Você deve adicionar a propriedade no elemento pai para alinhar o conteúdo filho lado a lado.
+
+
+```html
+<nav class="container">
+  <div>Home</div>
+  <div>Busca</div>
+  <div>Sair</div>
+</nav>
+```
+
+```css
+.container {
+  display: flex;
+}
+```
+
+O display: flex tem propriedade complementares que permitem alinhar os elementos filhos ao centro, à direita, à esquerda, tanto na horizontal como na vertical.
+
+`Exercício para treinar: https://flexboxfroggy.com/#pt-br`
+
+***
+
+### O que é Mobile First?
+
+Mobile First é um método onde o foco do desenvolvimento de projetos web está direcionado aos dispositivos móveis. A técnica prioriza a construção da arquitetura mobile, seguida do pensamento para desktops. O conceito está cada vez mais popular no mercado da comunicação e da tecnologia.
+
+O conceito vem do inglês [Dispositivo] Movél Primeiro e acaba sendo exatamente o que o nome sugere: pensar em toda a estrutura de um site a partir do mobile e depois ir progressivamente pensando nas telas maiores.
+
+***
+
+### Por que é importante?
+
+É indiscutível que o uso de smartphones revolucionou o mercado. Segundo um estudo da The Global Mobile Report, 29% dos brasileiros navegam utilizando apenas o celular e 73% do tempo online é passado no mobile. Além disso, o mobile ultrapassou o desktop nos e-commerces, com 60% do tempo de acesso. Os dados reforçam a ideia: é tempo de transformar as mentalidades criativas e analiticas para o mobile first em todas as áreas.
+
+Alguns pontos interessantes do estudo;
+
+· O Brasil é o segundo país em minutos no celular por pessoa: 4.489 minutos em média;
+
+· 29% dos brasileiros navegam pela internet apenas pelo celular;
+
+· As mulheres são mais propensas do que os homens a serem usuárias de internet exclusivamente mobile;
+
+· O mobile representa 73% do tempo on-line do brasileiro;
+
+· A audiência exclusivamente mobile no Brasil cresceu 7% em relação ao ano anterior;
+
+· 30 aplicativos principais são responsáveis por 51% do tempo do brasileiro no mobile;
+
+· 95% do tempo é gasto nos 10 principais apps do usuário;
+
+· A categoria de aplicativos que mais cresce é a de viagens, com aumento de 150% em 2017;
+
+· Do tempo total mobile, 33% é destinado a redes sociais e mensagens instantâneas;
+
+· No e-commerce, o mobile ultrapassou o desktop com 60% do tempo em sites deste segmento.
+
+***
+
+### Porque mobile first é 😍
+
+A maior vantagem desse método é a otimização do site para o celular, com foco em conteúdo e funcionalidade para melhorar a experiência do Usuário.
+
+O desenvolvimento de um site a partir do mobile vai garantir uma experiência mais completa, informativa e agradável para a grande maioria dos usuários, que acessam tudo diretamente pelo celular.
+
+Isso porque os parâmetros de priorização de informação mudam, e os desenvolvedores precisam definir quais são os dados mais importantes a serem exibidos.
+
+As páginas mobile first são criadas a partir de uma realidade de tela muito menor. Os conteúdos precisam ser disponibilizados de forma mais otimizada e não há espaço para informações irrelevantes. Assim, a tendência é que os sites para dispositivos móveis sejam cada vez mais limpos, funcionais e visualmente agradáveis.
+
+***
+
+### Porque mobile first é 🤦
+
+A principal barreira do mobile-first no design é a limitação criativa do projeto. A dificuldade de criar numa tela pequena, desprovido de muitas possibilidades de animações, hovers e transições atrapalha bastante o início do processo e é um desafio para designers que estão acostumados a fazer o caminho inverso.
+
+Esta é uma grande barreira que deverá ser combatida ao longo do tempo, já que a expectativa é que os dispositivos mobile cada vez mais dominem os acessos a internet.
 
 ***

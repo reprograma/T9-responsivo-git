@@ -1,0 +1,47 @@
+/* reseta a margem do box-model 
+do body */
+/* body {
+    font-family: 'Roboto', cursive;
+    background: pink;
+} */
+
+.menu {
+    list-style: none;
+    background: #000;
+    display: inline-block;
+}
+
+.menu-item {
+    padding: 10px;
+    color: #FFF;
+    display: inline-block;
+    width: auto;
+}
+
+.titulo {
+    font-family: 'Pacifico', cursive;
+    margin: 5px;
+}
+
+.navbar{
+    background: #000;
+    text-align: center;
+}
+
+.texto {
+    margin: auto;
+    width: 800px;
+    background: #ebebeb;
+    padding: 20px;
+}
+
+
+.footer {
+    text-align: center;
+    background: red;
+}
+
+.centralize {
+    background: blue;
+    width: 300px;
+}
