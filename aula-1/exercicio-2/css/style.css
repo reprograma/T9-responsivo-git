@@ -26,12 +26,15 @@ h2 {
 /* SEÇÃO SOBRE */
 .secao-sobre {
     background-color: white;
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
 }
 
 .sobre-conteudo__img {
     margin-top: 80px;
+    width: 100%;
+    max-width: 230px;
 }  
     
 .sobre-conteudo {
@@ -51,5 +54,18 @@ h2 {
     margin-left: 40px;
 }
 
+/* Media Query */
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+}
 
-
+/* Media Query - Breakpoints
+    350px
+    420px
+    768px
+    1024px
+    1200px
+    1920px
+*/
