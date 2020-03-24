@@ -32,6 +32,8 @@ h2 {
 
 .sobre-conteudo__img {
     margin-top: 80px;
+    width: 100%;
+    max-width: 200px;
 }  
     
 .sobre-conteudo {
@@ -51,5 +53,37 @@ h2 {
     margin-left: 40px;
 }
 
+/* Media Query*/
+@media screen and (max-width: 320px) {
+    .secao-sobre {
+        background-color: red;
 
+    }
+
+}
+
+/* Media Query */
+/* 300px - 370px */
+@media (max-width: 370px) and (min-width: 300px) {
+    .sobre-conteudo__img {
+        width: 160px;
+    }
+}
+
+/* 0 - 300px */
+@media (max-width: 300px) {
+    .sobre-conteudo__img {
+        width: 130px;
+    }
+}
+
+/*
+    max: até
+    min: a partir de
+*/
+
+/*
+    max-width: 700px - até 700px
+    min-width: 250px - a partir de 250px
+*/
 
