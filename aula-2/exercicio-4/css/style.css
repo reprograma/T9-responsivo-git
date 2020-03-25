@@ -10,7 +10,7 @@ body {
 
 /* FORM */
 .form {
-    width: 500px;
+   max-width: 500px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -77,3 +77,13 @@ body {
     background-color: #3a006d;
 }
 
+@media screen add (max-width: 500px) {
+    .form > div {
+        justify-content: center;
+        align-items: center;
+    }
+
+    label {
+        text-align: center;
+    }
+}
