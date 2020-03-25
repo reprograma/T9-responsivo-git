@@ -32,7 +32,7 @@ body {
     color: white;
 }
 
-.topnav .icon {
+.menu-responsivo > button {
     display: none;
 }
 
@@ -41,9 +41,11 @@ body {
         display: none;
     }
 
-    .topnav a.icon {
+    a.menu-responsivo, .menu-responsivo > button {
         float: right;
-        display: block;
+        display: block !important;
+        margin-top: 8px;
+        margin-right: 8px;
     }
 }
 
@@ -52,13 +54,13 @@ body {
         position: relative;
     }
 
-    .topnav.responsive .icon {
+    .menu-responsivo > button {
         position: absolute;
         right: 0;
         top: 0;
     }
 
-    .topnav.responsive a {
+    .menu-responsivo > button {
         float: none;
         display: block;
         text-align: left;
