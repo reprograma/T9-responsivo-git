@@ -20,7 +20,7 @@ body {
     }
 
     label {
-        display: inline-block;
+        display: flex;
         width: 45%;
         text-align: right;
         margin-right: 15px;
@@ -44,7 +44,6 @@ body {
 
 /* LAYOUT */
 .half-col {
-    display: inline-block;
     width: 45%;
 }
 
@@ -77,3 +76,4 @@ body {
 .btn_purple:hover {
     background-color: #3a006d;
 }
+
