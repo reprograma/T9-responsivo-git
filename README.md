@@ -6,6 +6,9 @@
 * [Começando com o Git](#comecando-com-o-git)
 * [Instalando/verificando se o Git está instalado](#instalandoverificando-se-o-git-está-instalado)
 * [Pra não esquecer:](#pra-nao-esquecer)
+* [Branch](#branch)
+* [Fork](#fork)
+* [Pull request](#pull-request)
 
 ***
 
@@ -156,5 +159,39 @@ A partir de agora, sempre que vocês modficarem/adicionarem/removerem arquivos n
 * `git commit -m "Mensagem"` (cria um histórico daquele arquivo com uma etiqueta explicando o que foi feito)
 * `git pull origin master` (o comando PULL pega a versão do arquivo que está no repositório remoto e baixa para sua máquina.
 * `git push origin master` (envia as modificações para o repositório remoto)
+
+***
+
+### Branch
+O git tem uma linha do tempo principal chamada master, que é branch base criada junto com cada repositório. Quando trabalhamos sozinhas em um repositório não tem problema trabalharmos sempre no master, mas quando começamos a trabalhar com outras pessoas em um projeto, surge a necessidade de ter uma cópia do projeto que seja livre de bugs e que esteja funcionando 100%. Essa cópia é o master.
+
+A partir do código que está no master podemos gerar outras cópias para serem modificadas e depois devolvidas para o master.
+
+Essas cópias são chamadas de branch.
+
+Comando para criar um novo branch:
+`git checkout -b nome-do-branch`
+
+Comando para trocar de branch:
+`git checkout nome-do-branch`
+
+Comando para listar todos os branches locais:
+`git branch`
+
+***
+
+### Fork
+
+Um fork é uma cópia de um projeto de outra pessoa dentro do seu GitHub.
+
+Normalmente você faz um fork de um projeto para fazer melhorias no código. Depois das melhorias feitas, você vai abrir um pull request para o dono do repositório, e se suas modificações forem aceitas, seu código vai ser 'mergeado' no código original.
+
+***
+
+### Pull request
+
+Quando você faz um fork de um projeto, ou quando você trabalha em uma empresa com mais desenvolvedores, é normal que as demais pessoas envolvidas no projeto façam um review do seu código antes de ele ir pro master, afinal você pode ter cometido algum erro no desenvolvimento, ou alguma parte do seu código pode ser melhorada.
+
+Um pull request é quando você quer fazer merge do seu código em outro branch, mas você precisa da autorização das outras pessoas envolvidas no projeto.
 
 ***
