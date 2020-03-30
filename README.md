@@ -18,6 +18,8 @@
 
 Git é uma ferramenta de controle de versão com foco em velocidade e integridade de dados. Com ele, podemos desenvolver projetos colaborativos, em que outras pessoas podem trabalhar simultaneamente no mesmo código sem riscos de perdas.
 
+- Nova linha tananan
+
 Conseguimos ter um histórico de tudo que foi alterado nos arquivos ao longo do tempo, além de mostrar quem foi o autor da mudança.
 
 Em linhas gerais, o Git promove:
