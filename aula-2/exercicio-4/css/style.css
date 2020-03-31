@@ -10,7 +10,7 @@ body {
 
 /* FORM */
 .form {
-    max-width: 500px;
+   max-width: 500px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -20,7 +20,7 @@ body {
     }
 
     label {
-        display: inline-block;
+        display: flex;
         width: 45%;
         text-align: right;
         margin-right: 15px;
@@ -44,7 +44,6 @@ body {
 
 /* LAYOUT */
 .half-col {
-    display: inline-block;
     width: 45%;
 }
 
@@ -78,11 +77,8 @@ body {
     background-color: #3a006d;
 }
 
-/* Media Queries */
-@media screen and (max-width: 500px) {
+@media screen add (max-width: 500px) {
     .form > div {
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
     }

@@ -38,17 +38,15 @@ main {
 .todos:last-child {
     margin-top: 20px;
 }
+/*  */
 
-/* Media Queries */
 @media screen and (max-width: 768px) {
     .header-caixa {
-        flex-direction: column;
+       flex-direction: column;
     }
-
     .todos {
         flex-wrap: wrap;
     }
-
     .todos:last-child {
         margin-top: 0;
     }

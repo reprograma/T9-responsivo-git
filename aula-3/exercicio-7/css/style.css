@@ -132,6 +132,28 @@ footer {
   /* height: 50px; */
 }
 
+<<<<<<< HEAD
+@media screen and (max-width: 930px) {
+  .posts__main-area half-column {
+      flex-direction: column;  
+      display: flex;
+      width: 100%;
+  }
+
+  .half-column {
+      display: inline;
+      text-align: center;
+  }
+
+  .posts__main-area img {
+      justify-content: space-around;
+      width: 100%;
+  }
+  .navbar__menu-btn {
+    display: none;
+  }
+}
+=======
 @media screen and (max-width: 900px) {
   .half-column {
     min-height: 200px;
@@ -163,3 +185,4 @@ footer {
     padding-top: 80px;
   }
 }
+>>>>>>> 2282e1aca7d1075e0b20ee56b26390a74122228c

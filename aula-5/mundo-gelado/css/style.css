@@ -1,0 +1,24 @@
+head {
+    font-family: 'Nunito';
+    font-family: 'Varela Round';
+}
+
+header {
+    background-image: url(../img/foto-banner.jpg);
+}
+
+.nav {
+    background: rgb(113, 153, 199);
+    max-width: 100%;
+    padding: 25px;
+    
+}
+.menu {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 54%;
+}
+.menu__item__link {
+    list-style: none;
+}

@@ -39,18 +39,19 @@ p {
 }
 
 .sobre-conteudo {
-    width: 45%;
+    width: 90%;
     display: inline-block;
 }
 
 .sobre-imagem {
-    width: 45%;
+    width: 90%;
     display: inline-block;
+
 }
 
 .section-sobre {
-   max-width: 960px;
-   margin: 0 auto; /* macete para deixar elementos block centralizados */
+    max-width: 960px;
+    margin: 0 auto; /* macete para deixar elementos block centralizados */
    margin-top: 100px;
 }
 
